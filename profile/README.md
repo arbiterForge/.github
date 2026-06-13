@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" alt="arbiterForge. Governed development, forged in code." width="100%">
+<img src="banner.png" alt="arbiterForge. Governed development, forged in code." width="100%">
 
 <br/><br/>
 
