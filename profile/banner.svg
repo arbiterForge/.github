@@ -1,69 +1,65 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="arbiterForge. Governed development, forged in code.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0a0f1f"/><stop offset="0.55" stop-color="#0e1530"/><stop offset="1" stop-color="#111a3a"/>
+      <stop stop-color="#0b0f14"/><stop offset="0.55" stop-color="#0f141d"/><stop offset="1" stop-color="#131a23"/>
     </linearGradient>
     <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(940 150) rotate(90) scale(280)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2dd4bf" stop-opacity="0.18"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientTransform="translate(180 60) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6366f1" stop-opacity="0.22"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+      <stop stop-color="#e3b341" stop-opacity="0.12"/><stop offset="1" stop-color="#e3b341" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="ember" cx="0" cy="0" r="1" gradientTransform="translate(940 250) rotate(-90) scale(150)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fbbf24" stop-opacity="0.30"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop stop-color="#e3b341" stop-opacity="0.28"/><stop offset="1" stop-color="#e3b341" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="wordmark" x1="64" y1="150" x2="680" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#a5b4fc"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#2dd4bf"/>
+      <stop stop-color="#f0b35a"/><stop offset="0.5" stop-color="#e3b341"/><stop offset="1" stop-color="#d29922"/>
     </linearGradient>
     <linearGradient id="anvil" x1="858" y1="232" x2="1010" y2="322" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3a4576"/><stop offset="1" stop-color="#1b2547"/>
+      <stop stop-color="#2a313d"/><stop offset="1" stop-color="#161b24"/>
     </linearGradient>
     <linearGradient id="flow" x1="900" y1="120" x2="940" y2="232" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fbbf24"/><stop offset="1" stop-color="#2dd4bf"/>
+      <stop stop-color="#f0b35a"/><stop offset="1" stop-color="#d29922"/>
     </linearGradient>
     <linearGradient id="shield" x1="912" y1="126" x2="968" y2="187" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#13224a"/><stop offset="1" stop-color="#0c1b3a"/>
+      <stop stop-color="#131a23"/><stop offset="1" stop-color="#0b0f14"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="360" rx="20" fill="url(#glow)"/>
-  <rect width="1200" height="360" rx="20" fill="url(#glow2)"/>
   <rect width="1200" height="360" rx="20" fill="url(#ember)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#2b3566" stroke-opacity="0.6"/>
+  <rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#e3b341" stroke-opacity="0.18"/>
 
   <!-- text column -->
-  <text x="66" y="92" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,monospace" font-size="17" font-weight="600" letter-spacing="5" fill="#5eead4">GOVERNED · FORGED · IN CODE</text>
+  <text x="66" y="92" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,monospace" font-size="17" font-weight="600" letter-spacing="5" fill="#e3b341">GOVERNED · FORGED · IN CODE</text>
   <text x="62" y="194" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="-1.5" fill="url(#wordmark)">arbiterForge</text>
-  <text x="66" y="240" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="25" font-weight="500" fill="#c7d2fe">Where the gate is the only door.</text>
-  <text x="66" y="286" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="16" font-weight="600"><tspan fill="#5eead4">codeArbiter proves the workflow.</tspan><tspan fill="#8b97c4">  arbiterIDE makes it unforgeable.</tspan></text>
+  <text x="66" y="240" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="25" font-weight="500" fill="#c9d1da">Where the gate is the only door.</text>
+  <text x="66" y="286" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="16" font-weight="600"><tspan fill="#e3b341">codeArbiter proves the workflow.</tspan><tspan fill="#8b95a2">  arbiterIDE makes it unforgeable.</tspan></text>
 
   <!-- right motif: the forge. anvil + ember + the gate verdict rising -->
   <!-- gate shield with check (the forged verdict) -->
   <path d="M912 126 H968 V157 C968 171 956 180 940 187 C924 180 912 171 912 157 Z" fill="url(#shield)" stroke="url(#flow)" stroke-width="2.5"/>
-  <path d="M929 154 l 7.5 7.5 l 15 -17" fill="none" stroke="#34e0c4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M929 154 l 7.5 7.5 l 15 -17" fill="none" stroke="#e3b341" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- flow line from anvil to verdict -->
   <path d="M940 232 V 188" stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- ember sparks rising off the anvil -->
-  <g fill="#fbbf24">
+  <g fill="#e3b341">
     <circle cx="905" cy="214" r="3"/>
     <circle cx="976" cy="210" r="2.5"/>
     <circle cx="918" cy="200" r="2"/>
     <circle cx="963" cy="222" r="2"/>
   </g>
-  <g fill="#fde68a">
+  <g fill="#f0d68a">
     <path d="M988 196 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 z"/>
     <path d="M894 188 l1.6 4 l4 1.6 l-4 1.6 l-1.6 4 l-1.6 -4 l-4 -1.6 l4 -1.6 z"/>
   </g>
 
   <!-- anvil -->
   <g>
-    <rect x="858" y="232" width="164" height="26" rx="5" fill="url(#anvil)" stroke="#4a567f" stroke-width="1.5"/>
-    <path d="M1020 236 L1054 245 L1020 254 Z" fill="url(#anvil)" stroke="#4a567f" stroke-width="1.5" stroke-linejoin="round"/>
-    <path d="M905 258 H975 L963 300 H917 Z" fill="url(#anvil)" stroke="#4a567f" stroke-width="1.5" stroke-linejoin="round"/>
-    <rect x="872" y="300" width="136" height="22" rx="5" fill="url(#anvil)" stroke="#4a567f" stroke-width="1.5"/>
+    <rect x="858" y="232" width="164" height="26" rx="5" fill="url(#anvil)" stroke="#46505a" stroke-width="1.5"/>
+    <path d="M1020 236 L1054 245 L1020 254 Z" fill="url(#anvil)" stroke="#46505a" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M905 258 H975 L963 300 H917 Z" fill="url(#anvil)" stroke="#46505a" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect x="872" y="300" width="136" height="22" rx="5" fill="url(#anvil)" stroke="#46505a" stroke-width="1.5"/>
   </g>
-  <text x="940" y="344" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#94a3c8">THE FORGE</text>
+  <text x="940" y="344" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#8b95a2">THE FORGE</text>
 </svg>
