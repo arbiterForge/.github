@@ -18,17 +18,17 @@ One rule runs through everything here: no code reaches a branch without clearing
 pipeline, and the proof is never forgeable. We build that rule at two depths.
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'ui-monospace, Menlo, monospace','primaryColor':'#13224a','primaryTextColor':'#dfe7ff','primaryBorderColor':'#3a4576','lineColor':'#64748b','fontSize':'15px'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'ui-monospace, Menlo, monospace','primaryColor':'#131a23','primaryTextColor':'#e6edf3','primaryBorderColor':'#e3b341','lineColor':'#6e7b8b','fontSize':'15px'}}}%%
 flowchart LR
   intent(["plain-language intent"]):::intent --> gate{{"the gated pipeline<br/>spec, failing tests, commit gate"}}:::gate
   gate --> pr(["gate-verified PR"]):::done
   ca["codeArbiter<br/>enforces at prompt level"]:::ca -. proves .-> gate
   ide["arbiterIDE<br/>enforces in code"]:::ide -. makes unforgeable .-> gate
-  classDef intent fill:#1b2547,stroke:#6366f1,color:#c7d2fe;
-  classDef gate fill:#3a2c05,stroke:#fbbf24,color:#fde68a;
-  classDef done fill:#0c3b2e,stroke:#34d399,color:#a7f3d0;
-  classDef ca fill:#27306b,stroke:#818cf8,color:#e8edff;
-  classDef ide fill:#241a3d,stroke:#a855f7,color:#e9d5ff;
+  classDef intent fill:#131a23,stroke:#6e7b8b,color:#c9d1da;
+  classDef gate fill:#2a2410,stroke:#e3b341,color:#f0d68a;
+  classDef done fill:#131a23,stroke:#e3b341,color:#e3b341;
+  classDef ca fill:#161b24,stroke:#d29922,color:#e6edf3;
+  classDef ide fill:#161b24,stroke:#b9831c,color:#e6edf3;
 ```
 
 ## Projects
