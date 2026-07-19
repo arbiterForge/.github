@@ -17,19 +17,11 @@ Intent goes in. A gate-verified PR comes out. Every time.
 One rule runs through everything here: no code reaches a branch without clearing the same gated
 pipeline, and the proof is never forgeable. We build that rule at two depths.
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'ui-monospace, Menlo, monospace','primaryColor':'#131a23','primaryTextColor':'#e6edf3','primaryBorderColor':'#e3b341','lineColor':'#6e7b8b','fontSize':'15px'}}}%%
-flowchart LR
-  intent(["plain-language intent"]):::intent --> gate{{"the gated pipeline<br/>spec, failing tests, commit gate"}}:::gate
-  gate --> pr(["gate-verified PR"]):::done
-  ca["codeArbiter<br/>enforces at prompt level"]:::ca -. proves .-> gate
-  ide["arbiterIDE<br/>enforces in code"]:::ide -. makes unforgeable .-> gate
-  classDef intent fill:#131a23,stroke:#6e7b8b,color:#c9d1da;
-  classDef gate fill:#2a2410,stroke:#e3b341,color:#f0d68a;
-  classDef done fill:#131a23,stroke:#e3b341,color:#e3b341;
-  classDef ca fill:#161b24,stroke:#d29922,color:#e6edf3;
-  classDef ide fill:#161b24,stroke:#b9831c,color:#e6edf3;
-```
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/arbiterForge/.github/main/profile/gatedPipeline.png" alt="Plain-language intent flows into the gated pipeline (spec, failing tests, commit gate) and out as a gate-verified PR. codeArbiter proves the gate at prompt level; arbiterIDE makes it unforgeable in code." width="100%">
+
+</div>
 
 ## Projects
 
