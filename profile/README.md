@@ -63,4 +63,6 @@ Built on Eclipse Theia, desktop-first, currently pre-alpha. See
 
 ## Contact
 
-contact via GitHub issues
+Open an issue on [codeArbiter](https://github.com/arbiterForge/codeArbiter/issues) or
+[arbiterIDE](https://github.com/arbiterForge/arbiterIDE/issues), or start a conversation in
+[Discussions](https://github.com/orgs/arbiterForge/discussions).
