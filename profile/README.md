@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arbiterForge/.github/main/profile/banner.svg" alt="arbiterForge. Governed development, forged in code." width="100%">
+<img src="https://raw.githubusercontent.com/arbiterForge/.github/main/profile/AFhero.png" alt="arbiterForge — Where the gate is the only door." width="100%">
 
 <br/><br/>
 
